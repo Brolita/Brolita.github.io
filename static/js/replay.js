@@ -32,7 +32,7 @@ function getReplays()
 			getReplays();
 		}
 	};
-	req.open("GET", "http://dustkid.com/backend/events.php", true);
+	req.open("GET", "https://dustkid.com/backend/events.php", true);
 	req.send(null);
 }
 
